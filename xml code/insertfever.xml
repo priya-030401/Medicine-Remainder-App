@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".insertfever">
+
+    <TextView
+        android:id="@+id/textfe"
+        android:layout_width="232dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="627dp"
+        android:background="#C6DEE1"
+        android:text="         Fever"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="193dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <ImageView
+        android:id="@+id/imagefe"
+        android:layout_width="82dp"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="293dp"
+        android:layout_marginBottom="479dp"
+        app:srcCompat="@drawable/pill1" />
+
+    <TextView
+        android:id="@+id/textfe1"
+        android:layout_width="166dp"
+        android:layout_height="33dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="567dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Select Medicine" />
+
+    <ImageView
+        android:id="@+id/imagefe2"
+        android:layout_width="82dp"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="289dp"
+        android:layout_marginBottom="388dp"
+        app:srcCompat="@drawable/calender" />
+
+    <EditText
+        android:id="@+id/date4"
+        android:layout_width="231dp"
+        android:layout_height="63dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="392dp"
+        android:hint="dd/mm/yyyy"
+        android:inputType="date"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spinner33"
+        android:layout_width="231dp"
+        android:layout_height="54dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="481dp"
+        android:entries="@array/feverr" />
+
+    <Spinner
+        android:id="@+id/spinnerfe"
+        android:layout_width="231dp"
+        android:layout_height="54dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="214dp"
+        android:entries="@array/timeofday" />
+
+    <ImageView
+        android:id="@+id/timerimg5"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="299dp"
+        android:layout_marginBottom="300dp"
+        app:srcCompat="@drawable/ic_timer" />
+
+    <EditText
+        android:id="@+id/timer5"
+        android:layout_width="232dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="302dp"
+        android:ems="10"
+        android:hint="HH:MM:SS"
+        android:inputType="textPersonName|time" />
+
+    <ImageView
+        android:id="@+id/imagefe3"
+        android:layout_width="82dp"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="285dp"
+        android:layout_marginBottom="199dp"
+        app:srcCompat="@drawable/alarm2" />
+
+
+    <Button
+        android:id="@+id/btnadd3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="104dp"
+        android:background="#FAD8E3"
+        android:text="Add^"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnback3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="265dp"
+        android:layout_marginBottom="108dp"
+        android:background="#FAD8E3"
+        android:text="Back"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/footer5"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#F33478" />
+
+    <Button
+        android:id="@+id/homebtn5"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="330dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/ic_home"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/viewbtn5"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/ic_eye"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/setbtn5"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/ic_settings"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/profilebtn5"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/ic_profile"
+        tools:ignore="SpeakableTextPresentCheck" />
+</RelativeLayout>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".insertdental">
+
+    <TextView
+        android:id="@+id/textde"
+        android:layout_width="232dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="611dp"
+        android:background="#C6DEE1"
+        android:text="         Dental"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="193dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <ImageView
+        android:id="@+id/imagede"
+        android:layout_width="82dp"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="285dp"
+        android:layout_marginBottom="455dp"
+        app:srcCompat="@drawable/pill1" />
+
+    <TextView
+        android:id="@+id/textde1"
+        android:layout_width="166dp"
+        android:layout_height="33dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="563dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Select Medicine" />
+
+    <ImageView
+        android:id="@+id/imagede2"
+        android:layout_width="82dp"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="286dp"
+        android:layout_marginBottom="360dp"
+        app:srcCompat="@drawable/calender" />
+
+    <EditText
+        android:id="@+id/date2"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="183dp"
+        android:layout_marginBottom="284dp"
+        android:hint="dd/mm/yyyy"
+        android:inputType="date"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spinner11"
+        android:layout_width="231dp"
+        android:layout_height="54dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="194dp"
+        android:entries="@array/timeofday" />
+
+    <Spinner
+        android:id="@+id/spinnerde"
+        android:layout_width="231dp"
+        android:layout_height="54dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="471dp"
+        android:entries="@array/dentall" />
+
+    <ImageView
+        android:id="@+id/imagede3"
+        android:layout_width="72dp"
+        android:layout_height="67dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="289dp"
+        android:layout_marginBottom="185dp"
+        app:srcCompat="@drawable/alarm2" />
+
+    <Button
+        android:id="@+id/btnadd1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="106dp"
+        android:background="#FAD8E3"
+        android:text="Add^"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnback1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="219dp"
+        android:layout_marginBottom="106dp"
+        android:background="#FAD8E3"
+        android:text="Back"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:id="@+id/footer3"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#F33478" />
+
+    <Button
+        android:id="@+id/homebtn3"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="330dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/ic_home"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/viewbtn3"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/ic_eye"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/setbtn3"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/ic_settings"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/profilebtn3"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/ic_profile"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/timerimg3"
+        android:layout_width="65dp"
+        android:layout_height="73dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="290dp"
+        android:layout_marginBottom="271dp"
+        app:srcCompat="@drawable/ic_timer" />
+
+    <EditText
+        android:id="@+id/timer3"
+        android:layout_width="232dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="365dp"
+        android:ems="10"
+        android:hint="HH:MM:SS"
+        android:inputType="textPersonName|time" />
+
+    <EditText
+        android:id="@+id/min3"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="286dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+</RelativeLayout>

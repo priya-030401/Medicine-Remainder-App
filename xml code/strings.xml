@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Medicine Remainder App</string>
+
+    <string-array name="timeofday">
+        <item>Morning</item>
+        <item>Afternoon</item>
+        <item>Night</item>
+        <item>Night</item>
+    </string-array>
+
+    <string-array name="Bloodpressure">
+        <item>Amlodipine</item>
+        <item>Diltiazem</item>
+        <item>Felodipine</item>
+        <item>Nisoldipinet</item>
+    </string-array>
+
+    <string-array name="coldcoughh">
+        <item>Codral</item>
+        <item>Coldrex</item>
+        <item>Duro-tuss</item>
+        <item>Dimetapp</item>
+    </string-array>
+
+    <string-array name="dentall">
+        <item>Ibuprofen</item>
+        <item>Advil</item>
+        <item>Motrin</item>
+        <item>Naproxen</item>
+    </string-array>
+
+    <string-array name="diabetiss">
+        <item>Metformin</item>
+        <item>Avandia</item>
+        <item>Insulin</item>
+        <item>Tenzeum</item>
+    </string-array>
+
+    <string-array name="feverr">
+        <item>Paracetamol</item>
+        <item>Dolo-650</item>
+        <item>Aspirin</item>
+        <item>Aspergum</item>
+    </string-array>
+
+    <string-array name="headachee">
+        <item>Anacin</item>
+        <item>Panadol</item>
+        <item>Nycep</item>
+        <item>Tylenol</item>
+    </string-array>
+
+
+</resources>
